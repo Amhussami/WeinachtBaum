@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Amhussami
+ * 
  */
 
 
@@ -22,7 +22,7 @@ public class Stars {
     public static void main(String[] args) {
        Scanner s=new Scanner(System.in);
         
-       System.out.println("Enter Row/Column Value::");
+       System.out.println("Enter ");
         int i,j,k,n;
         n=s.nextInt();
         for(i=1; i<n; i++){
