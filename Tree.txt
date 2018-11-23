@@ -1,0 +1,18 @@
+package ubung1;
+
+public class weinacht {
+public static void main(String[] args) {
+	String s ="x";
+	for(int i= 1 ;i <=22 ; i++) {
+		System.out.printf ("%" + (30+i) + "s\n",s);
+		for (int j =1 ; j<=2 ; j++) {
+			s += "x";
+		}
+	}
+	for ( int i=1; i<=8;i++) {
+		System.out.printf("%32s\n" ,"xxx");
+	}
+	System.out.printf("%33s\n" ,"xxxxx");
+	System.out.printf("%34s\n" ,"xxxxxx");
+}
+}
